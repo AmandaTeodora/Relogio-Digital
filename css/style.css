@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
     font-family:'open sans', sans-serif;
+    
 }
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, rgb(25, 25, 150), white);
+    background-image: url(../mo);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,11 +20,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
+    height: 300px;
     width: 550px;
     background: transparent;
     border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0px 8px 10px rgba(1, 1, 1, .9);
 }
 
 .relogio div {
@@ -32,8 +35,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: rgba(5, 5, 5, .9);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    background: transparent;
+    box-shadow: 5px 5px 15px rgba(3, 3, 1, .9);
     border-radius: 7px;
     letter-spacing: 3px;
 }
